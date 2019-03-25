@@ -10,7 +10,8 @@
 
 
 
-    <xi:include href="fix_fraction/mixer_fab.xml" xpointer="xpointer(//My_include/*)"/>
+    <!-- <xi:include href="fix_fraction/mixer_fab.xml" xpointer="xpointer(//My_include/*)"/> -->
+    <xi:include href="puEQ/cycamore_fab.xml" xpointer="xpointer(//My_include/*)"/>
 
 
 

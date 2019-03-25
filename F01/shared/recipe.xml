@@ -7,16 +7,6 @@
         <nuclide> <id>U238</id><comp>83.83</comp></nuclide>
     </recipe>
     <recipe>
-        <name>r_pu</name>
-        <basis>mass</basis>
-        <nuclide> <id>pu238</id><comp>1.98</comp></nuclide>
-        <nuclide> <id>pu239</id><comp>62.25</comp></nuclide>
-        <nuclide> <id>pu240</id><comp>22.50</comp></nuclide>
-        <nuclide> <id>pu241</id><comp>8.00</comp></nuclide>
-        <nuclide> <id>pu242</id><comp>5.00</comp></nuclide>
-        <nuclide> <id>am241</id><comp>0.27</comp></nuclide>
-    </recipe>
-    <recipe>
         <name>r_pu_1</name>
         <basis>mass</basis>
         <nuclide> <id>pu238</id><comp>3.12</comp></nuclide>
