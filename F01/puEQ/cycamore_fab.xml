@@ -1,0 +1,26 @@
+<My_include>
+
+    <prototype>
+        <name>fab_sfr</name>
+        <config>
+            <FuelFab>
+                <fill_commods>
+                    <val>c_u_src</val>
+                </fill_commods>
+   
+                <fill_recipe>r_u</fill_recipe>
+                <fill_size>18500000</fill_size>
+
+                <fiss_commods>
+                    <val>c_pu_src</val>
+                </fiss_commods>
+                <fiss_size>175000</fiss_size>
+
+                <throughput>200000</throughput>
+                <spectrum>thermal</spectrum>
+                <outcommod>c_sfr_fuel</outcommod>
+            </FuelFab>
+        </config>
+    </prototype>
+
+</My_include>

@@ -1,0 +1,62 @@
+<My_include>
+
+    <recipe>
+        <name>r_u</name>
+        <basis>mass</basis>
+        <nuclide> <id>U235</id><comp>0.200</comp></nuclide>
+        <nuclide> <id>U238</id><comp>83.83</comp></nuclide>
+    </recipe>
+    <recipe>
+        <name>r_pu</name>
+        <basis>mass</basis>
+        <nuclide> <id>pu238</id><comp>1.98</comp></nuclide>
+        <nuclide> <id>pu239</id><comp>62.25</comp></nuclide>
+        <nuclide> <id>pu240</id><comp>22.50</comp></nuclide>
+        <nuclide> <id>pu241</id><comp>8.00</comp></nuclide>
+        <nuclide> <id>pu242</id><comp>5.00</comp></nuclide>
+        <nuclide> <id>am241</id><comp>0.27</comp></nuclide>
+    </recipe>
+    <recipe>
+        <name>r_pu_1</name>
+        <basis>mass</basis>
+        <nuclide> <id>pu238</id><comp>3.12</comp></nuclide>
+        <nuclide> <id>pu239</id><comp>51.59</comp></nuclide>
+        <nuclide> <id>pu240</id><comp>24.32</comp></nuclide>
+        <nuclide> <id>pu241</id><comp>11.75</comp></nuclide>
+        <nuclide> <id>pu242</id><comp>8.04</comp></nuclide>
+        <nuclide> <id>am241</id><comp>1.18</comp></nuclide>
+    </recipe>
+    <recipe>
+        <name>r_pu_2</name>
+        <basis>mass</basis>
+        <nuclide> <id>pu238</id><comp>2.87</comp></nuclide>
+        <nuclide> <id>pu239</id><comp>46.99</comp></nuclide>
+        <nuclide> <id>pu240</id><comp>33.91</comp></nuclide>
+        <nuclide> <id>pu241</id><comp>4.54</comp></nuclide>
+        <nuclide> <id>pu242</id><comp>10.92</comp></nuclide>
+        <nuclide> <id>am241</id><comp>0.77</comp></nuclide>
+    </recipe>
+
+
+    <recipe>
+        <name>r_pu_3</name>
+        <basis>mass</basis>
+        <nuclide> <id>pu238</id><comp>4.00</comp></nuclide>
+        <nuclide> <id>pu239</id><comp>38.53</comp></nuclide>
+        <nuclide> <id>pu240</id><comp>24.56</comp></nuclide>
+        <nuclide> <id>pu241</id><comp>15.90</comp></nuclide>
+        <nuclide> <id>pu242</id><comp>12.78</comp></nuclide>
+        <nuclide> <id>am241</id><comp>4.23</comp></nuclide>
+    </recipe>
+
+
+
+
+
+
+
+
+
+
+
+</My_include>

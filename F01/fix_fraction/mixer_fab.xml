@@ -1,0 +1,42 @@
+<My_include>
+
+    <prototype>
+        <name>fab_sfr</name>
+        <config>
+            <Mixer>
+                <in_streams>
+                    <stream>
+                        <info>
+                            <mixing_ratio>0.92996612</mixing_ratio>
+                            <buf_size>1e100</buf_size>
+                        </info>
+                        <commodities>
+                            <item>
+                                <commodity>c_u_src</commodity>
+                                <pref>100</pref>
+                            </item>
+                        </commodities>
+                    </stream>
+                    <stream>
+                        <info>
+                            <mixing_ratio>0.07003388</mixing_ratio>
+                            <buf_size>1e100</buf_size>
+                        </info>
+                        <commodities>
+                            <item>
+                                <commodity>c_pu_src</commodity>
+                                <pref>10</pref>
+                            </item>
+                        </commodities>
+                    </stream>
+                </in_streams>
+
+                <throughput>72000</throughput>
+                <out_commod>c_sfr_fuel</out_commod>
+                <out_buf_size>72000</out_buf_size>
+
+            </Mixer>
+        </config>
+    </prototype>
+
+</My_include>

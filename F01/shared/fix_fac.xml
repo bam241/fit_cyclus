@@ -1,0 +1,45 @@
+<My_include>
+
+    <prototype>
+        <name>src_u</name>
+        <config>
+            <Source>
+                <outcommod>c_u_src</outcommod>
+                <outrecipe>r_u</outrecipe>
+                <throughput>1e100</throughput>
+            </Source>
+        </config>
+    </prototype>
+    <prototype>
+        <name>src_pu</name>
+        <config>
+            <Source>
+                <outcommod>c_pu_src</outcommod>
+                <outrecipe>r_pu_1</outrecipe>
+                <throughput>1e100</throughput>
+            </Source>
+        </config>
+    </prototype>
+
+    <prototype>
+        <name>waste</name>
+        <config>
+            <Sink>
+                <in_commods><val>c_waste</val></in_commods>
+                <capacity>1e100</capacity>
+            </Sink>
+        </config>
+    </prototype>
+
+    <prototype>
+        <name>str_fuel</name>
+        <config>
+            <Storage>
+                <in_commods> <val>c_sfr_used</val></in_commods>
+                <out_commods> <val>c_sfr_used_str</val></out_commods>
+                <residence_time>0</residence_time>
+            </Storage>
+        </config>
+    </prototype>
+
+</My_include>

@@ -1,0 +1,30 @@
+<My_include>
+
+    <prototype>
+        <name>sfr</name>
+        <lifetime>960</lifetime>
+        <config>
+            <cyclassReactor>
+                <eq_model>EQM_1P</eq_model>
+                <eq_command>/Users/mouginot/work/app/CLASS/DATA_BASES/PWR/MOX/EQModel/XML/PWR_MOX.xml,/Users/mouginot/work/app/CLASS/DATA_BASES/PWR/MOX/EQModel/NFO/PWR_MOX.nfo,3,1.05217</eq_command>
+                <ir_model>RK4</ir_model>
+                <ir_command>none</ir_command>
+
+                <xs_model>XSM_MLP</xs_model>
+                <xs_command>/Users/mouginot/work/app/CLASS/DATA_BASES/PWR/MOX/XSModel/30Wg_FullMOX/,Data_Base_Info.nfo,false</xs_command>
+                <fuel_incommods>  <val>c_sfr_fuel</val></fuel_incommods>
+                <fuel_outcommods> <val>c_sfr_fuel_used</val></fuel_outcommods>
+
+                <cycle_time>12</cycle_time>
+                <refuel_time>0</refuel_time>
+                <batch_size>72000</batch_size>
+                <n_batch_core>3</n_batch_core>
+                
+                <power_cap>1000</power_cap>
+                <power>2700</power>
+                <burnup>41.0906</burnup>
+            </cyclassReactor>
+        </config>
+    </prototype>
+
+</My_include>

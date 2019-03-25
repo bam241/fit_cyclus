@@ -1,0 +1,39 @@
+<My_include>
+
+
+    <prototype>
+        <name>deployer</name>
+        <config>
+            <DeployInst>
+                <prototypes>
+                    <val>waste</val>
+                    <val>fab_sfr</val>
+                    <val>src_u</val>
+                    <val>src_pu</val>
+                    <val>sfr</val>
+                    <val>str_fuel</val>
+                </prototypes>
+
+                <build_times>
+                    <val>1</val>
+                    <val>1</val>
+                    <val>1</val>
+                    <val>1</val>
+                    <val>1</val>
+                    <val>1</val>
+                </build_times>
+
+                <n_build>
+                    <val>1</val>
+                    <val>1</val>
+                    <val>1</val>
+                    <val>1</val>
+                    <val>1</val>
+                    <val>1</val>
+                </n_build>
+            </DeployInst>
+        </config>
+    </prototype>
+
+
+</My_include>

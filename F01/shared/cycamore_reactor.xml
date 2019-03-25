@@ -1,0 +1,81 @@
+<My_include>
+    <prototype>
+        <name>lwr_a</name>
+        <lifetime>960</lifetime>
+        <config>
+            <Reactor>
+                <fuel_inrecipes>  <val>r_uox</val></fuel_inrecipes>
+                <fuel_outrecipes> <val>r_uox_s</val></fuel_outrecipes>
+                <fuel_incommods>  <val>c_uox</val></fuel_incommods>
+                <fuel_outcommods> <val>c_uox_a_s</val></fuel_outcommods>
+
+                <cycle_time>18</cycle_time>
+                <refuel_time>0</refuel_time>
+                <assem_size>29565</assem_size>
+                <n_assem_core>3</n_assem_core>
+                <n_assem_batch>1</n_assem_batch>
+                <power_cap>900</power_cap>
+            </Reactor>
+        </config>
+    </prototype>
+
+    <prototype>
+        <name>lwr_b</name>
+        <lifetime>960</lifetime>
+        <config>
+            <Reactor>
+                <fuel_inrecipes>  <val>r_uox</val></fuel_inrecipes>
+                <fuel_outrecipes> <val>r_uox_s</val></fuel_outrecipes>
+                <fuel_incommods>  <val>c_uox</val></fuel_incommods>
+                <fuel_outcommods> <val>c_uox_b_s</val></fuel_outcommods>
+                <cycle_time>18</cycle_time>
+                <refuel_time>0</refuel_time>
+                <assem_size>29565</assem_size>
+                <n_assem_core>3</n_assem_core>
+                <n_assem_batch>1</n_assem_batch>
+                <power_cap>900</power_cap>
+            </Reactor>
+        </config>
+    </prototype>
+
+    <prototype>
+        <name>sfr_a</name>
+        <lifetime>960</lifetime>
+        <config>
+            <Reactor>
+                <fuel_inrecipes>  <val>r_sfr_a_fuel</val></fuel_inrecipes>
+                <fuel_outrecipes> <val>r_sfr_a_s</val></fuel_outrecipes>
+                <fuel_incommods>  <val>c_sfr_fuel</val></fuel_incommods>
+                <fuel_outcommods> <val>c_sfr_a_s</val></fuel_outcommods>
+
+                <cycle_time>22</cycle_time>
+                <refuel_time>0</refuel_time>
+                <assem_size>12540</assem_size>
+                <n_assem_core>3</n_assem_core>
+                <n_assem_batch>1</n_assem_batch>
+                <power_cap>360</power_cap>
+            </Reactor>
+        </config>
+    </prototype>
+
+    <prototype>
+        <name>sfr_b</name>
+        <lifetime>960</lifetime>
+        <config>
+            <Reactor>
+                <fuel_inrecipes>  <val>r_sfr_b_fuel</val></fuel_inrecipes>
+                <fuel_outrecipes> <val>r_sfr_b_s</val></fuel_outrecipes>
+                <fuel_incommods>  <val>c_sfr_fuel</val></fuel_incommods>
+                <fuel_outcommods> <val>c_sfr_b_s</val></fuel_outcommods>
+
+                <cycle_time>18</cycle_time>
+                <refuel_time>0</refuel_time>
+                <assem_size>11467</assem_size>
+                <n_assem_core>3</n_assem_core>
+                <n_assem_batch>1</n_assem_batch>
+                <power_cap>360</power_cap>
+            </Reactor>
+        </config>
+    </prototype>
+
+</My_include>
