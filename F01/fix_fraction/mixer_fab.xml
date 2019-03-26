@@ -1,7 +1,7 @@
 <My_include>
 
     <prototype>
-        <name>fab_sfr</name>
+        <name>fab_lwr</name>
         <config>
             <Mixer>
                 <in_streams>
@@ -32,7 +32,7 @@
                 </in_streams>
 
                 <throughput>72000</throughput>
-                <out_commod>c_sfr_fuel</out_commod>
+                <out_commod>c_lwr_fuel</out_commod>
                 <out_buf_size>72000</out_buf_size>
 
             </Mixer>

@@ -1,4 +1,5 @@
 import sys
+import subprocess
 sys.path.append('/Users/mouginot/work/LHS_build')
 import build_lhs
 
@@ -7,7 +8,7 @@ import build_lhs
 def build():
     
     dim = 5
-    sample = 1000
+    sample = 2
     method = 'maximin'
     outdat = "outdat"
     my_LHS = build_lhs.build_LHS(dim, sample, method, 1, outdat, plot=False,
@@ -23,7 +24,9 @@ def build():
    
     my_LHS = add_pu9(my_LHS)
     build_lhs.build_plot(my_LHS, outdat +".png")
-
+    
+    for idx, compo in enumerate(my_LHS):
+        generate_file(compo, idx) 
 
 
 
@@ -44,6 +47,22 @@ def add_pu9(LHS):
     return _LHS
 
 
+def generate_file(compo, n):
+    names =[ "_PU_238",
+            "_PU_239",
+            "_PU_240",
+            "_PU_241",
+            "_PU_242",
+            "_AM_241", ]
+    subprocess.call(["cp shared/pu_template.xml shared/pu.xml"],
+            shell=True)
+
+    for idx, name in enumerate(names):
+        val = compo[idx]
+        subprocess.call(["sed -i -e 's/" + name + "/" + str(val) + "/g' "
+            "shared/pu.xml"], shell=True)
+    subprocess.call(["/Users/mouginot/.local/bin/cyclus main.xml -o " +
+        str(n) + ".h5 -v2"], shell=True)
 
 if __name__ == '__main__':
     build()

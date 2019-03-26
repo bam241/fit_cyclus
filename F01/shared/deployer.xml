@@ -7,10 +7,10 @@
             <DeployInst>
                 <prototypes>
                     <val>waste</val>
-                    <val>fab_sfr</val>
+                    <val>fab_lwr</val>
                     <val>src_u</val>
                     <val>src_pu</val>
-                    <val>sfr</val>
+                    <val>lwr</val>
                     <val>str_fuel</val>
                 </prototypes>
 

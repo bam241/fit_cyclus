@@ -1,7 +1,7 @@
 <My_include>
 
     <prototype>
-        <name>fab_sfr</name>
+        <name>fab_lwr</name>
         <config>
             <FuelFab>
                 <fill_commods>
@@ -18,7 +18,7 @@
 
                 <throughput>200000</throughput>
                 <spectrum>thermal</spectrum>
-                <outcommod>c_sfr_fuel</outcommod>
+                <outcommod>c_lwr_fuel</outcommod>
             </FuelFab>
         </config>
     </prototype>

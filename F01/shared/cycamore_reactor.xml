@@ -39,14 +39,14 @@
     </prototype>
 
     <prototype>
-        <name>sfr_a</name>
+        <name>lwr_a</name>
         <lifetime>960</lifetime>
         <config>
             <Reactor>
-                <fuel_inrecipes>  <val>r_sfr_a_fuel</val></fuel_inrecipes>
-                <fuel_outrecipes> <val>r_sfr_a_s</val></fuel_outrecipes>
-                <fuel_incommods>  <val>c_sfr_fuel</val></fuel_incommods>
-                <fuel_outcommods> <val>c_sfr_a_s</val></fuel_outcommods>
+                <fuel_inrecipes>  <val>r_lwr_a_fuel</val></fuel_inrecipes>
+                <fuel_outrecipes> <val>r_lwr_a_s</val></fuel_outrecipes>
+                <fuel_incommods>  <val>c_lwr_fuel</val></fuel_incommods>
+                <fuel_outcommods> <val>c_lwr_a_s</val></fuel_outcommods>
 
                 <cycle_time>22</cycle_time>
                 <refuel_time>0</refuel_time>
@@ -59,14 +59,14 @@
     </prototype>
 
     <prototype>
-        <name>sfr_b</name>
+        <name>lwr_b</name>
         <lifetime>960</lifetime>
         <config>
             <Reactor>
-                <fuel_inrecipes>  <val>r_sfr_b_fuel</val></fuel_inrecipes>
-                <fuel_outrecipes> <val>r_sfr_b_s</val></fuel_outrecipes>
-                <fuel_incommods>  <val>c_sfr_fuel</val></fuel_incommods>
-                <fuel_outcommods> <val>c_sfr_b_s</val></fuel_outcommods>
+                <fuel_inrecipes>  <val>r_lwr_b_fuel</val></fuel_inrecipes>
+                <fuel_outrecipes> <val>r_lwr_b_s</val></fuel_outrecipes>
+                <fuel_incommods>  <val>c_lwr_fuel</val></fuel_incommods>
+                <fuel_outcommods> <val>c_lwr_b_s</val></fuel_outcommods>
 
                 <cycle_time>18</cycle_time>
                 <refuel_time>0</refuel_time>

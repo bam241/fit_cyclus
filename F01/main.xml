@@ -8,6 +8,7 @@
     <xi:include href="shared/cyclass_reactor.xml" xpointer="xpointer(//My_include/*)"/>
     <xi:include href="shared/deployer.xml" xpointer="xpointer(//My_include/*)"/>
 
+    <xi:include href="shared/pu.xml" xpointer="xpointer(//My_include/*)"/>
 
 
     <!-- <xi:include href="fix_fraction/mixer_fab.xml" xpointer="xpointer(//My_include/*)"/> -->

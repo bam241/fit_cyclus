@@ -1,7 +1,7 @@
 <My_include>
 
     <prototype>
-        <name>sfr</name>
+        <name>lwr</name>
         <lifetime>960</lifetime>
         <config>
             <cyclassReactor>
@@ -12,8 +12,8 @@
 
                 <xs_model>XSM_MLP</xs_model>
                 <xs_command>/Users/mouginot/work/app/CLASS/DATA_BASES/PWR/MOX/XSModel/30Wg_FullMOX/,Data_Base_Info.nfo,false</xs_command>
-                <fuel_incommods>  <val>c_sfr_fuel</val></fuel_incommods>
-                <fuel_outcommods> <val>c_sfr_fuel_used</val></fuel_outcommods>
+                <fuel_incommods>  <val>c_lwr_fuel</val></fuel_incommods>
+                <fuel_outcommods> <val>c_lwr_fuel_used</val></fuel_outcommods>
 
                 <cycle_time>12</cycle_time>
                 <refuel_time>0</refuel_time>
