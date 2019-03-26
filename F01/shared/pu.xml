@@ -1,0 +1,16 @@
+<My_include>
+
+    <recipe>
+        <name>r_pu</name>
+        <basis>mass</basis>
+        <nuclide> <id>pu238</id><comp>4.382649664264535</comp></nuclide>
+        <nuclide> <id>pu239</id><comp>33.8721272287671</comp></nuclide>
+        <nuclide> <id>pu240</id><comp>27.736230467620768</comp></nuclide>
+        <nuclide> <id>pu241</id><comp>15.063617291494015</comp></nuclide>
+        <nuclide> <id>pu242</id><comp>14.709441131609191</comp></nuclide>
+        <nuclide> <id>am241</id><comp>4.235934216244394</comp></nuclide>
+    </recipe>
+
+
+
+</My_include>
