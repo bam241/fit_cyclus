@@ -1,0 +1,23 @@
+<simulation xmlns:xi="http://www.w3.org/2001/XInclude">
+
+
+    <xi:include href="shared/header.xml" xpointer="xpointer(//My_include/*)"/>
+
+    <xi:include href="shared/fix_fac.xml" xpointer="xpointer(//My_include/*)"/>
+    <xi:include href="shared/recipe.xml" xpointer="xpointer(//My_include/*)"/>
+    <xi:include href="shared/cyclass_reactor.xml" xpointer="xpointer(//My_include/*)"/>
+    <xi:include href="shared/deployer.xml" xpointer="xpointer(//My_include/*)"/>
+
+    <xi:include href="shared/pu.xml" xpointer="xpointer(//My_include/*)"/>
+
+
+    <!-- <xi:include href="fix_fraction/mixer_fab.xml" xpointer="xpointer(//My_include/*)"/> -->
+    <xi:include href="puEQ/cycamore_fab.xml" xpointer="xpointer(//My_include/*)"/>
+
+
+
+
+
+    <agent> <name>deployer1</name> <prototype>deployer</prototype> </agent>
+
+</simulation>
