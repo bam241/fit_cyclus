@@ -8,7 +8,7 @@ import build_lhs
 def build():
     
     dim = 5
-    sample = 2
+    sample = 5
     method = 'maximin'
     outdat = "outdat"
     my_LHS = build_lhs.build_LHS(dim, sample, method, 1, outdat, plot=False,
@@ -43,7 +43,7 @@ def add_pu9(LHS):
         
        _compo = [pu38, pu39, pu40, pu41, pu42, am41]
        _LHS.append(_compo)
-
+    print(_LHS)
     return _LHS
 
 
@@ -61,8 +61,18 @@ def generate_file(compo, n):
         val = compo[idx]
         subprocess.call(["sed -i -e 's/" + name + "/" + str(val) + "/g' "
             "shared/pu.xml"], shell=True)
-    subprocess.call(["/Users/mouginot/.local/bin/cyclus main.xml -o " +
-        str(n) + ".h5 -v2"], shell=True)
+    subprocess.call(["/Users/mouginot/.local/bin/cyclus main_pueq.xml -o " +
+        str(n) + "_pueq.h5 -v2"], shell=True)
+    subprocess.call(["/Users/mouginot/.local/bin/cyclus main_fix.xml -o " +
+        str(n) + "_fix.h5 -v2"], shell=True)
+
+
+
+
+
+
+
+
 
 if __name__ == '__main__':
     build()

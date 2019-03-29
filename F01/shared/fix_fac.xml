@@ -15,7 +15,7 @@
         <config>
             <Source>
                 <outcommod>c_pu_src</outcommod>
-                <outrecipe>r_pu_1</outrecipe>
+                <outrecipe>r_pu</outrecipe>
                 <throughput>1e100</throughput>
             </Source>
         </config>
