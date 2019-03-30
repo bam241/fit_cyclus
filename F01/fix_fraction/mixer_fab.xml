@@ -7,7 +7,7 @@
                 <in_streams>
                     <stream>
                         <info>
-                            <mixing_ratio>0.94013</mixing_ratio>
+                            <mixing_ratio>0.92193</mixing_ratio>
                             <buf_size>1e100</buf_size>
                         </info>
                         <commodities>
@@ -19,7 +19,7 @@
                     </stream>
                     <stream>
                         <info>
-                            <mixing_ratio>0.05987</mixing_ratio>
+                            <mixing_ratio>0.07807</mixing_ratio>
                             <buf_size>1e100</buf_size>
                         </info>
                         <commodities>
