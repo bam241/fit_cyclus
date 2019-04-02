@@ -8,7 +8,7 @@ import build_lhs
 def build():
     
     dim = 5
-    sample = 1000
+    sample = 10
     method = 'maximin'
     outdat = "outdat"
     my_LHS = build_lhs.build_LHS(dim, sample, method, 1, outdat, plot=False,

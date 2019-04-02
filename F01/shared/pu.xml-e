@@ -3,11 +3,11 @@
     <recipe>
         <name>r_pu</name>
         <basis>mass</basis>
-        <nuclide> <id>pu238</id><comp>5.209205686894644</comp></nuclide>
-        <nuclide> <id>pu239</id><comp>57.578372443360415</comp></nuclide>
-        <nuclide> <id>pu240</id><comp>16.561651273239143</comp></nuclide>
-        <nuclide> <id>pu241</id><comp>1.7556498544065633</comp></nuclide>
-        <nuclide> <id>pu242</id><comp>14.259647078747683</comp></nuclide>
+        <nuclide> <id>pu238</id><comp>1.9973003956113098</comp></nuclide>
+        <nuclide> <id>pu239</id><comp>49.15368576122167</comp></nuclide>
+        <nuclide> <id>pu240</id><comp>29.915584606594564</comp></nuclide>
+        <nuclide> <id>pu241</id><comp>13.767258477939532</comp></nuclide>
+        <nuclide> <id>pu242</id><comp>0.6990847134719909</comp></nuclide>
         <nuclide> <id>am241</id><comp>_AM_241</comp></nuclide>
     </recipe>
 
