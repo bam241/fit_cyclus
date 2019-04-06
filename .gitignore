@@ -1,3 +1,5 @@
 *.h5
 *.log
 shared/pu.xml
+*/.DS_Store
+F01/.DS_Store
